@@ -3,7 +3,7 @@
 namespace App;
 
 include "project.php";
-use Project\Table;
+use Project\Table as ProjectTableAlias;
 
 class Table {
   public function get() {
@@ -11,4 +11,4 @@ class Table {
   }
 }
 
-Table::get();
+ProjectTableAlias::get();
